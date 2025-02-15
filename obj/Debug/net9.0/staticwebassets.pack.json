@@ -5,6 +5,50 @@
       "PackagePath": "staticwebassets/css/main.css"
     },
     {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-max.jpeg",
+      "PackagePath": "staticwebassets/img/airpods-max.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "PackagePath": "staticwebassets/img/airpods-pro-2-hero-select-202409.png"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applek.png",
+      "PackagePath": "staticwebassets/img/applek.png"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applesd.webp",
+      "PackagePath": "staticwebassets/img/applesd.webp"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/appletab.jpeg",
+      "PackagePath": "staticwebassets/img/appletab.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "PackagePath": "staticwebassets/img/battery_charger__f8vsiut6h1aq_large_2x.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/homepod.jpg",
+      "PackagePath": "staticwebassets/img/homepod.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/key.jpeg",
+      "PackagePath": "staticwebassets/img/key.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/mouse.jpeg",
+      "PackagePath": "staticwebassets/img/mouse.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/pencil.jpeg",
+      "PackagePath": "staticwebassets/img/pencil.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/studio-display.jpeg",
+      "PackagePath": "staticwebassets/img/studio-display.jpeg"
+    },
+    {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StoreApp2.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

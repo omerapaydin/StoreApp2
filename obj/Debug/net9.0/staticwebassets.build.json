@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "81hfKJhhywWmgAAtsx0v1lA7qG0fBHbskepDdXpLqd0=",
+  "Hash": "XmlTSCc3c6HFLYUbHNZjUNukdjyRESjVXDme91rVQB0=",
   "Source": "StoreApp2",
   "BasePath": "_content/StoreApp2",
   "Mode": "Default",
@@ -57,6 +57,237 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/main.css"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-max.jpeg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/airpods-max#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qmhgbt732m",
+      "Integrity": "vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/airpods-max.jpeg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/airpods-pro-2-hero-select-202409#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "103sb0ah32",
+      "Integrity": "MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/airpods-pro-2-hero-select-202409.png"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applek.png",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/applek#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i35hx8lko5",
+      "Integrity": "8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/applek.png"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applesd.webp",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/applesd#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dcgihb2y2j",
+      "Integrity": "PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/applesd.webp"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/appletab.jpeg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/appletab#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0pzem2jocy",
+      "Integrity": "zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/appletab.jpeg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/battery_charger__f8vsiut6h1aq_large_2x#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bv9s2x8qdk",
+      "Integrity": "94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/homepod.jpg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/homepod#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8c760sz0nl",
+      "Integrity": "WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/homepod.jpg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/key.jpeg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/key#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5v06ch99o4",
+      "Integrity": "4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/key.jpeg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/mouse.jpeg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/mouse#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p36cbqiuxd",
+      "Integrity": "5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/mouse.jpeg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/pencil.jpeg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/pencil#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lkptsysmuf",
+      "Integrity": "tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/pencil.jpeg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/studio-display.jpeg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/studio-display#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "771b9qpztf",
+      "Integrity": "03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/studio-display.jpeg"
     }
   ],
   "Endpoints": [
@@ -355,6 +586,908 @@
         {
           "Name": "integrity",
           "Value": "sha256-fyJcf0G7i4IOROvxGj4UyziPDAId1sXy+tsro3LjW6M="
+        }
+      ]
+    },
+    {
+      "Route": "img/airpods-max.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-max.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g="
+        }
+      ]
+    },
+    {
+      "Route": "img/airpods-max.qmhgbt732m.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-max.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "101242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qmhgbt732m"
+        },
+        {
+          "Name": "label",
+          "Value": "img/airpods-max.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g="
+        }
+      ]
+    },
+    {
+      "Route": "img/airpods-pro-2-hero-select-202409.103sb0ah32.png",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "103sb0ah32"
+        },
+        {
+          "Name": "label",
+          "Value": "img/airpods-pro-2-hero-select-202409.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4="
+        }
+      ]
+    },
+    {
+      "Route": "img/airpods-pro-2-hero-select-202409.png",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "105554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4="
+        }
+      ]
+    },
+    {
+      "Route": "img/applek.i35hx8lko5.png",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applek.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i35hx8lko5"
+        },
+        {
+          "Name": "label",
+          "Value": "img/applek.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c="
+        }
+      ]
+    },
+    {
+      "Route": "img/applek.png",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applek.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "147876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c="
+        }
+      ]
+    },
+    {
+      "Route": "img/applesd.dcgihb2y2j.webp",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applesd.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcgihb2y2j"
+        },
+        {
+          "Name": "label",
+          "Value": "img/applesd.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c="
+        }
+      ]
+    },
+    {
+      "Route": "img/applesd.webp",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/applesd.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25502"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c="
+        }
+      ]
+    },
+    {
+      "Route": "img/appletab.0pzem2jocy.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/appletab.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0pzem2jocy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/appletab.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU="
+        }
+      ]
+    },
+    {
+      "Route": "img/appletab.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/appletab.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "111729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU="
+        }
+      ]
+    },
+    {
+      "Route": "img/battery_charger__f8vsiut6h1aq_large_2x.bv9s2x8qdk.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bv9s2x8qdk"
+        },
+        {
+          "Name": "label",
+          "Value": "img/battery_charger__f8vsiut6h1aq_large_2x.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc="
+        }
+      ]
+    },
+    {
+      "Route": "img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11262"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc="
+        }
+      ]
+    },
+    {
+      "Route": "img/homepod.8c760sz0nl.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/homepod.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8c760sz0nl"
+        },
+        {
+          "Name": "label",
+          "Value": "img/homepod.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w="
+        }
+      ]
+    },
+    {
+      "Route": "img/homepod.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/homepod.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "173467"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:08:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w="
+        }
+      ]
+    },
+    {
+      "Route": "img/key.5v06ch99o4.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/key.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5v06ch99o4"
+        },
+        {
+          "Name": "label",
+          "Value": "img/key.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk="
+        }
+      ]
+    },
+    {
+      "Route": "img/key.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/key.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk="
+        }
+      ]
+    },
+    {
+      "Route": "img/mouse.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/mouse.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww="
+        }
+      ]
+    },
+    {
+      "Route": "img/mouse.p36cbqiuxd.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/mouse.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p36cbqiuxd"
+        },
+        {
+          "Name": "label",
+          "Value": "img/mouse.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww="
+        }
+      ]
+    },
+    {
+      "Route": "img/pencil.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/pencil.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k="
+        }
+      ]
+    },
+    {
+      "Route": "img/pencil.lkptsysmuf.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/pencil.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkptsysmuf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/pencil.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k="
+        }
+      ]
+    },
+    {
+      "Route": "img/studio-display.771b9qpztf.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/studio-display.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "771b9qpztf"
+        },
+        {
+          "Name": "label",
+          "Value": "img/studio-display.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk="
+        }
+      ]
+    },
+    {
+      "Route": "img/studio-display.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/studio-display.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:11:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk="
         }
       ]
     }
