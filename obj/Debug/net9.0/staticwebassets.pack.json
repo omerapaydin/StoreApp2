@@ -41,6 +41,14 @@
       "PackagePath": "staticwebassets/img/mouse.jpeg"
     },
     {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p1.jpg",
+      "PackagePath": "staticwebassets/img/p1.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p2.jpg",
+      "PackagePath": "staticwebassets/img/p2.jpg"
+    },
+    {
       "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/pencil.jpeg",
       "PackagePath": "staticwebassets/img/pencil.jpeg"
     },

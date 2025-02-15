@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StoreApp2.Data.Concrete.EfCore;
+using StoreApp2.Entity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,7 +11,7 @@ builder.Services.AddDbContext<IdentityContext>(options =>{
     options.UseSqlite(builder.Configuration.GetConnectionString("sql_connection"));
 });
 
-
+builder.Services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<IdentityContext>().AddDefaultTokenProviders();
 
 var app = builder.Build();
 app.UseRouting();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XmlTSCc3c6HFLYUbHNZjUNukdjyRESjVXDme91rVQB0=",
+  "Hash": "PsYNxlJmZoT0M8DA0wspJARKIqOs5skFwGSB+4IVEJk=",
   "Source": "StoreApp2",
   "BasePath": "_content/StoreApp2",
   "Mode": "Default",
@@ -246,6 +246,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/mouse.jpeg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p1.jpg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/p1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b0p08di8g1",
+      "Integrity": "ZQWT7rWY7Cruy1mseJi8rof0awZ6C5tVOEacXYoa4xE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/p1.jpg"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p2.jpg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/p2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u4rpsw1ojb",
+      "Integrity": "Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/p2.jpg"
     },
     {
       "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/pencil.jpeg",
@@ -1324,6 +1366,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww="
+        }
+      ]
+    },
+    {
+      "Route": "img/p1.b0p08di8g1.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZQWT7rWY7Cruy1mseJi8rof0awZ6C5tVOEacXYoa4xE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b0p08di8g1"
+        },
+        {
+          "Name": "label",
+          "Value": "img/p1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZQWT7rWY7Cruy1mseJi8rof0awZ6C5tVOEacXYoa4xE="
+        }
+      ]
+    },
+    {
+      "Route": "img/p1.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZQWT7rWY7Cruy1mseJi8rof0awZ6C5tVOEacXYoa4xE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:30:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZQWT7rWY7Cruy1mseJi8rof0awZ6C5tVOEacXYoa4xE="
+        }
+      ]
+    },
+    {
+      "Route": "img/p2.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
+        }
+      ]
+    },
+    {
+      "Route": "img/p2.u4rpsw1ojb.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/p2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15835"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 15 Feb 2025 21:30:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u4rpsw1ojb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/p2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
         }
       ]
     },
