@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SlGb6pDE6ZppcZMP8xArSckJoRTHlDGSqZm8KJWCGtk=",
+  "Hash": "PB6CCeUOF7V2M0Xtv8kW0gNNthfc10GV0Zf6cWP4FOY=",
   "Source": "StoreApp2",
   "BasePath": "_content/StoreApp2",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-otyachfi4a.gz",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-tg23vtgx2j.gz",
       "SourceId": "StoreApp2",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/StoreApp2",
-      "RelativePath": "css/main#[.{fingerprint=otyachfi4a}]?.css.gz",
+      "RelativePath": "css/main#[.{fingerprint=tg23vtgx2j}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5b6r8dzzca",
-      "Integrity": "T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE=",
+      "Fingerprint": "zwxb9li2jz",
+      "Integrity": "jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "otyachfi4a",
-      "Integrity": "NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU=",
+      "Fingerprint": "tg23vtgx2j",
+      "Integrity": "w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/main.css"
@@ -227,6 +227,27 @@
       "OriginalItemSpec": "wwwroot/img/key.jpeg"
     },
     {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/magsafe.jpg",
+      "SourceId": "StoreApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/",
+      "BasePath": "_content/StoreApp2",
+      "RelativePath": "img/magsafe#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vq2hmt01cz",
+      "Integrity": "J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/magsafe.jpg"
+    },
+    {
       "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/mouse.jpeg",
       "SourceId": "StoreApp2",
       "SourceType": "Discovered",
@@ -335,12 +356,12 @@
   "Endpoints": [
     {
       "Route": "css/main.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-otyachfi4a.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-tg23vtgx2j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002439024390"
+          "Quality": "0.001808318264"
         }
       ],
       "ResponseHeaders": [
@@ -350,15 +371,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "409"
+          "Value": "552"
         },
         {
           "Name": "ETag",
-          "Value": "\"T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE=\""
+          "Value": "\"jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:12:47 GMT"
+          "Value": "Sun, 16 Feb 2025 21:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -378,13 +399,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU=\""
+          "Value": "W/\"w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU="
+          "Value": "sha256-w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q="
         }
       ]
     },
@@ -399,7 +420,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "947"
+          "Value": "1367"
         },
         {
           "Name": "Content-Type",
@@ -407,11 +428,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU=\""
+          "Value": "\"w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:12:47 GMT"
+          "Value": "Sun, 16 Feb 2025 21:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -421,13 +442,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU="
+          "Value": "sha256-w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q="
         }
       ]
     },
     {
       "Route": "css/main.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-otyachfi4a.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-tg23vtgx2j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -436,7 +457,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "409"
+          "Value": "552"
         },
         {
           "Name": "Content-Type",
@@ -444,11 +465,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE=\""
+          "Value": "\"jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:12:47 GMT"
+          "Value": "Sun, 16 Feb 2025 21:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -466,18 +487,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE="
+          "Value": "sha256-jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI="
         }
       ]
     },
     {
-      "Route": "css/main.otyachfi4a.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-otyachfi4a.gz",
+      "Route": "css/main.tg23vtgx2j.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-tg23vtgx2j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002439024390"
+          "Quality": "0.001808318264"
         }
       ],
       "ResponseHeaders": [
@@ -487,15 +508,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "409"
+          "Value": "552"
         },
         {
           "Name": "ETag",
-          "Value": "\"T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE=\""
+          "Value": "\"jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:12:47 GMT"
+          "Value": "Sun, 16 Feb 2025 21:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -515,13 +536,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU=\""
+          "Value": "W/\"w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "otyachfi4a"
+          "Value": "tg23vtgx2j"
         },
         {
           "Name": "label",
@@ -529,12 +550,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU="
+          "Value": "sha256-w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q="
         }
       ]
     },
     {
-      "Route": "css/main.otyachfi4a.css",
+      "Route": "css/main.tg23vtgx2j.css",
       "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -544,7 +565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "947"
+          "Value": "1367"
         },
         {
           "Name": "Content-Type",
@@ -552,11 +573,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU=\""
+          "Value": "\"w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:12:47 GMT"
+          "Value": "Sun, 16 Feb 2025 21:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -566,7 +587,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "otyachfi4a"
+          "Value": "tg23vtgx2j"
         },
         {
           "Name": "label",
@@ -574,13 +595,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-NFEh8xhnZLf0/rjgRFPofpFZV5n0GBbR196EFmM/VMU="
+          "Value": "sha256-w33JbGsKuiHwE2jw8jSCe69Da+yt2zN3Z6fnSH8ES3Q="
         }
       ]
     },
     {
-      "Route": "css/main.otyachfi4a.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-otyachfi4a.gz",
+      "Route": "css/main.tg23vtgx2j.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-tg23vtgx2j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -589,7 +610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "409"
+          "Value": "552"
         },
         {
           "Name": "Content-Type",
@@ -597,11 +618,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE=\""
+          "Value": "\"jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 16 Feb 2025 21:12:47 GMT"
+          "Value": "Sun, 16 Feb 2025 21:37:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -619,7 +640,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "otyachfi4a"
+          "Value": "tg23vtgx2j"
         },
         {
           "Name": "label",
@@ -627,7 +648,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-T1s/EemtwEiZ0oyh8zMFScMn6MukKVgyeQUwj+eY+dE="
+          "Value": "sha256-jcImfLcSnnW4cRMhyc/czSBgg56MzeGKRc18nVYjbtI="
         }
       ]
     },
@@ -1284,6 +1305,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk="
+        }
+      ]
+    },
+    {
+      "Route": "img/magsafe.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/magsafe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 22:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc="
+        }
+      ]
+    },
+    {
+      "Route": "img/magsafe.vq2hmt01cz.jpg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/magsafe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54514"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Feb 2025 22:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vq2hmt01cz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/magsafe.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc="
         }
       ]
     },

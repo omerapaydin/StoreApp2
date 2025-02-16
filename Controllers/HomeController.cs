@@ -17,7 +17,7 @@ namespace StoreApp2.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            return View(_productRepository.Products.OrderBy(p=>p.PublishedOn).Take(4).ToList());
         }
         public IActionResult List()
         {

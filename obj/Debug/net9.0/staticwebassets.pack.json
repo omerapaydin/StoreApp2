@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets/img/key.jpeg"
     },
     {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/magsafe.jpg",
+      "PackagePath": "staticwebassets/img/magsafe.jpg"
+    },
+    {
       "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/img/mouse.jpeg",
       "PackagePath": "staticwebassets/img/mouse.jpeg"
     },

@@ -237,8 +237,8 @@ namespace StoreApp2.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "ImageFile", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "75f5d5bb-8468-4d04-804d-9df6851470ef", "info@gmail.com", true, "Ömer Apaydın", "p1.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEJGSuMkwYyqIKAjPL6jJs+It9PvmDteFAD4OeyA1fp5NOU2jBeFveaxzY0vxWUqSDw==", null, false, "7dd2e35e-416e-44e6-9a6d-8562ca3c88f4", false, "omerapaydin" },
-                    { "2", 0, "9ec8fb2b-3246-490f-b50f-252418178511", "info2@gmail.com", true, "Ahmet Tamboğa", "p2.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEIwvT2f3oWxM10tHaK6NYOhFCor2mj8EavNj08x+JSwJJrwl20H2cU+CNJSBkAZasA==", null, false, "01372621-1f4a-4a11-8562-8aef64174c70", false, "ahmettambuga" }
+                    { "1", 0, "d7924faf-427c-461a-a9b6-ca77438d2f4d", "info@gmail.com", true, "Ömer Apaydın", "p1.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEDhyXoR6Daqh8VWmvKKDRGlSDI5ukn8u6FYhp1K4cxId9/HCfa5Ayb7kSaVgrjjkNA==", null, false, "e6e0d7fa-1db7-454e-903a-4027e0aa0922", false, "omerapaydin" },
+                    { "2", 0, "edbfd002-9a4d-4d91-9c9c-43c70a62bcb6", "info2@gmail.com", true, "Ahmet Tamboğa", "p2.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEJE5gw1lTpn2A6KOMzz2tHBDCbJk3uPF9qrhtBRxcbSPJdxUYjUvxEvQemKIHcLAEA==", null, false, "15e71d74-187f-4725-b074-196ff6784033", false, "ahmettambuga" }
                 });
 
             migrationBuilder.InsertData(
@@ -256,9 +256,12 @@ namespace StoreApp2.Migrations
                 columns: new[] { "ProductId", "CategoryId", "Description", "Image", "IsActive", "Price", "PublishedOn", "Title", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 1, "Apple Iphone 12 64GB Sarı Cep Telefonu", "homepod.jpg", true, 45000m, new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
-                    { 2, 1, "Apple Iphone 14 128GB Sarı Cep Telefonu", "battery_charger__f8vsiut6h1aq_large_2x.jpg", true, 55000m, new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
-                    { 3, 1, "Apple Iphone 15 64GB Sarı Cep Telefonu", "airpods-pro-2-hero-select-202409.png", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" }
+                    { 1, 1, "Apple HomePod Hoparlör", "homepod.jpg", true, 45000m, new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
+                    { 2, 1, "Apple Şarj Kablosu Magsafe", "magsafe.jpg", true, 55000m, new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
+                    { 3, 1, "Apple AirPods Pro 2", "airpods-pro-2-hero-select-202409.png", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" },
+                    { 4, 2, "Apple AirPods Pro 2", "airpods-max.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" },
+                    { 5, 2, "Apple Key Pro 2", "key.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" },
+                    { 6, 3, "Apple Mouse Pro ", "mouse.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" }
                 });
 
             migrationBuilder.CreateIndex(

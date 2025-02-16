@@ -219,15 +219,15 @@ namespace StoreApp2.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "1e68e184-bbb2-47e7-81c9-351b1665a92b",
+                            ConcurrencyStamp = "d7924faf-427c-461a-a9b6-ca77438d2f4d",
                             Email = "info@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ömer Apaydın",
                             ImageFile = "p1.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAECLlh5L/K20E19y62XnbAuEnSmJToKkXoyT6duDY5eAhcUgOJy1hCslg+ly2QxRMjg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDhyXoR6Daqh8VWmvKKDRGlSDI5ukn8u6FYhp1K4cxId9/HCfa5Ayb7kSaVgrjjkNA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "1cca700f-51b0-4fb0-83fc-1c72c8bc8321",
+                            SecurityStamp = "e6e0d7fa-1db7-454e-903a-4027e0aa0922",
                             TwoFactorEnabled = false,
                             UserName = "omerapaydin"
                         },
@@ -235,15 +235,15 @@ namespace StoreApp2.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "305ceca4-ffcc-4f42-83a2-0c08fc7b222f",
+                            ConcurrencyStamp = "edbfd002-9a4d-4d91-9c9c-43c70a62bcb6",
                             Email = "info2@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ahmet Tamboğa",
                             ImageFile = "p2.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEKJ1lYt6iI3igbocwspOsVTLtLZss21i1vDp64Lb5X4Rl4ij1FkjDxyio2WN2d6dxg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJE5gw1lTpn2A6KOMzz2tHBDCbJk3uPF9qrhtBRxcbSPJdxUYjUvxEvQemKIHcLAEA==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "a2dc3ada-5d17-4b87-922b-a532a95ea416",
+                            SecurityStamp = "15e71d74-187f-4725-b074-196ff6784033",
                             TwoFactorEnabled = false,
                             UserName = "ahmettambuga"
                         });
@@ -352,7 +352,7 @@ namespace StoreApp2.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 1,
-                            Description = "Apple Iphone 12 64GB Sarı Cep Telefonu",
+                            Description = "Apple HomePod Hoparlör",
                             Image = "homepod.jpg",
                             IsActive = true,
                             Price = 45000m,
@@ -364,8 +364,8 @@ namespace StoreApp2.Migrations
                         {
                             ProductId = 2,
                             CategoryId = 1,
-                            Description = "Apple Iphone 14 128GB Sarı Cep Telefonu",
-                            Image = "battery_charger__f8vsiut6h1aq_large_2x.jpg",
+                            Description = "Apple Şarj Kablosu Magsafe",
+                            Image = "magsafe.jpg",
                             IsActive = true,
                             Price = 55000m,
                             PublishedOn = new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
@@ -376,8 +376,44 @@ namespace StoreApp2.Migrations
                         {
                             ProductId = 3,
                             CategoryId = 1,
-                            Description = "Apple Iphone 15 64GB Sarı Cep Telefonu",
+                            Description = "Apple AirPods Pro 2",
                             Image = "airpods-pro-2-hero-select-202409.png",
+                            IsActive = true,
+                            Price = 75000m,
+                            PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Apple",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            ProductId = 4,
+                            CategoryId = 2,
+                            Description = "Apple AirPods Pro 2",
+                            Image = "airpods-max.jpeg",
+                            IsActive = true,
+                            Price = 75000m,
+                            PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Apple",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            ProductId = 5,
+                            CategoryId = 2,
+                            Description = "Apple Key Pro 2",
+                            Image = "key.jpeg",
+                            IsActive = true,
+                            Price = 75000m,
+                            PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Apple",
+                            UserId = "2"
+                        },
+                        new
+                        {
+                            ProductId = 6,
+                            CategoryId = 3,
+                            Description = "Apple Mouse Pro ",
+                            Image = "mouse.jpeg",
                             IsActive = true,
                             Price = 75000m,
                             PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
