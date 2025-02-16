@@ -3,10 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace StoreApp2.Migrations
 {
     /// <inheritdoc />
-    public partial class NewTables : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -228,6 +230,35 @@ namespace StoreApp2.Migrations
                         principalTable: "Products",
                         principalColumn: "ProductId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "ImageFile", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[,]
+                {
+                    { "1", 0, "75f5d5bb-8468-4d04-804d-9df6851470ef", "info@gmail.com", true, "Ömer Apaydın", "p1.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEJGSuMkwYyqIKAjPL6jJs+It9PvmDteFAD4OeyA1fp5NOU2jBeFveaxzY0vxWUqSDw==", null, false, "7dd2e35e-416e-44e6-9a6d-8562ca3c88f4", false, "omerapaydin" },
+                    { "2", 0, "9ec8fb2b-3246-490f-b50f-252418178511", "info2@gmail.com", true, "Ahmet Tamboğa", "p2.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEIwvT2f3oWxM10tHaK6NYOhFCor2mj8EavNj08x+JSwJJrwl20H2cU+CNJSBkAZasA==", null, false, "01372621-1f4a-4a11-8562-8aef64174c70", false, "ahmettambuga" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "CategoryId", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Telefonlar" },
+                    { 2, "Bilgisayarlar" },
+                    { 3, "Aksesuarlar" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Products",
+                columns: new[] { "ProductId", "CategoryId", "Description", "Image", "IsActive", "Price", "PublishedOn", "Title", "UserId" },
+                values: new object[,]
+                {
+                    { 1, 1, "Apple Iphone 12 64GB Sarı Cep Telefonu", "homepod.jpg", true, 45000m, new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
+                    { 2, 1, "Apple Iphone 14 128GB Sarı Cep Telefonu", "battery_charger__f8vsiut6h1aq_large_2x.jpg", true, 55000m, new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
+                    { 3, 1, "Apple Iphone 15 64GB Sarı Cep Telefonu", "airpods-pro-2-hero-select-202409.png", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" }
                 });
 
             migrationBuilder.CreateIndex(

@@ -1,0 +1,64 @@
+@model List<Product>
+
+<div class="row">
+
+    <div class="col-md-3">
+         <div class="card shadow-sm border-0 rounded-4 p-3 bg-light">
+            <h5 class="fw-bold text-center mb-3">Kategoriler</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-transparent border-0">
+                <a
+                  href="#"
+                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
+                >
+                  Kulaklıklar
+                </a>
+              </li>
+              <li class="list-group-item bg-transparent border-0">
+                <a
+                  href="#"
+                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
+                >
+                  Klavye & Mouse
+                </a>
+              </li>
+              <li class="list-group-item bg-transparent border-0">
+                <a
+                  href="#"
+                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
+                >
+                  Bilgisayar Aksesuarları
+                </a>
+              </li>
+              <li class="list-group-item bg-transparent border-0">
+                <a
+                  href="#"
+                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
+                >
+                  Akıllı Saatler
+                </a>
+              </li>
+            </ul>
+          </div>
+    </div>
+    <div class="col-md-9">
+       <div class="row">
+         @foreach(var prd in Model)
+        {
+            <div class="col-md-4 mb-3">
+                    <div class="card shadow product-card">
+                        <img src="~/img/@prd.Image" class="card-img-top" alt="Kulaklık" />
+                        <div class="card-body">
+                        <h5 class="card-title">@prd.Title</h5>
+                        <p class="card-text">
+                            @prd.Description
+                        </p>
+                        <p class="text-primary">₺ @prd.Price</p>
+                        <a href="#" class="btn custom-btn">Sepete Ekle</a>
+                        </div>
+                    </div>
+            </div>
+        }
+       </div>
+    </div>
+</div>

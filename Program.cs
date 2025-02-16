@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using StoreApp2.Data.Abstract;
 using StoreApp2.Data.Concrete.EfCore;
 using StoreApp2.Entity;
 
@@ -10,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<IdentityContext>(options =>{
     options.UseSqlite(builder.Configuration.GetConnectionString("sql_connection"));
 });
+
+builder.Services.AddScoped<IProductRepository,EfProductRepository>();
 
 builder.Services.AddIdentity<ApplicationUser,IdentityRole>().AddEntityFrameworkStores<IdentityContext>().AddDefaultTokenProviders();
 

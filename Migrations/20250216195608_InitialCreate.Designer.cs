@@ -11,8 +11,8 @@ using StoreApp2.Data.Concrete.EfCore;
 namespace StoreApp2.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20250215213506_NewTables1")]
-    partial class NewTables1
+    [Migration("20250216195608_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -216,6 +216,40 @@ namespace StoreApp2.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "75f5d5bb-8468-4d04-804d-9df6851470ef",
+                            Email = "info@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Ömer Apaydın",
+                            ImageFile = "p1.jpg",
+                            LockoutEnabled = false,
+                            PasswordHash = "AQAAAAIAAYagAAAAEJGSuMkwYyqIKAjPL6jJs+It9PvmDteFAD4OeyA1fp5NOU2jBeFveaxzY0vxWUqSDw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "7dd2e35e-416e-44e6-9a6d-8562ca3c88f4",
+                            TwoFactorEnabled = false,
+                            UserName = "omerapaydin"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "9ec8fb2b-3246-490f-b50f-252418178511",
+                            Email = "info2@gmail.com",
+                            EmailConfirmed = true,
+                            FullName = "Ahmet Tamboğa",
+                            ImageFile = "p2.jpg",
+                            LockoutEnabled = false,
+                            PasswordHash = "AQAAAAIAAYagAAAAEIwvT2f3oWxM10tHaK6NYOhFCor2mj8EavNj08x+JSwJJrwl20H2cU+CNJSBkAZasA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "01372621-1f4a-4a11-8562-8aef64174c70",
+                            TwoFactorEnabled = false,
+                            UserName = "ahmettambuga"
+                        });
                 });
 
             modelBuilder.Entity("StoreApp2.Entity.Category", b =>
@@ -230,6 +264,23 @@ namespace StoreApp2.Migrations
                     b.HasKey("CategoryId");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            Name = "Telefonlar"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            Name = "Bilgisayarlar"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            Name = "Aksesuarlar"
+                        });
                 });
 
             modelBuilder.Entity("StoreApp2.Entity.Comment", b =>
@@ -298,6 +349,44 @@ namespace StoreApp2.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            CategoryId = 1,
+                            Description = "Apple Iphone 12 64GB Sarı Cep Telefonu",
+                            Image = "homepod.jpg",
+                            IsActive = true,
+                            Price = 45000m,
+                            PublishedOn = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Apple",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            CategoryId = 1,
+                            Description = "Apple Iphone 14 128GB Sarı Cep Telefonu",
+                            Image = "battery_charger__f8vsiut6h1aq_large_2x.jpg",
+                            IsActive = true,
+                            Price = 55000m,
+                            PublishedOn = new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Apple",
+                            UserId = "1"
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            CategoryId = 1,
+                            Description = "Apple Iphone 15 64GB Sarı Cep Telefonu",
+                            Image = "airpods-pro-2-hero-select-202409.png",
+                            IsActive = true,
+                            Price = 75000m,
+                            PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Title = "Apple",
+                            UserId = "2"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
