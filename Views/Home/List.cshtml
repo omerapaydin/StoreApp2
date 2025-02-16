@@ -47,9 +47,14 @@
         {
             <div class="col-md-4 mb-3">
                     <div class="card shadow product-card">
+                    <a href="/Home/Details/@prd.ProductId">
                         <img src="~/img/@prd.Image" class="card-img-top" alt="Kulaklık" />
+                        </a>
                         <div class="card-body">
+                       <a href="/Home/Details/@prd.ProductId" style="text-decoration: none; color: #212529;">
                         <h5 class="card-title">@prd.Title</h5>
+                      </a>
+
                         <p class="card-text">
                             @prd.Description
                         </p>
@@ -62,3 +67,16 @@
        </div>
     </div>
 </div>
+
+
+@section Search {
+        <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Ürün ara..."
+              aria-label="Search"
+            />
+            <button class="btn btn-dark" type="submit">Ara</button>
+        </form>
+}

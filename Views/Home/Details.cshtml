@@ -1,0 +1,26 @@
+@model Product
+
+
+      <div class="row">
+        <div class="col-md-6 d-flex justify-content-center mb-3">
+          <img
+            src="~/img/@Model.Image"
+            class="img-fluid product-img rounded shadow"
+            alt="Ürün Görseli"
+          />
+        </div>
+        <div class="col-md-6 d-flex flex-column align-items-start gap-2">
+            <h2>@Model.Title</h2>
+            <p class="text-muted">@Model.Description</p>
+            <h4 class="text-warning">₺ @Model.Price</h4>
+            <div class="d-flex gap-2 mt-3">
+              <button class="btn custom-btn">Sepete Ekle</button>
+              <button class="btn btn-outline-dark">Favorilere Ekle</button>
+            </div>
+        </div>
+      </div>
+
+@section Script{
+    <link rel="stylesheet" href="/css/details.css">
+
+}

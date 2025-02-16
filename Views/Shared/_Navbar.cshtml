@@ -17,15 +17,7 @@
             <li class="nav-item"><a class="nav-link" href="/Home/List">Ürünler</a></li>
             <li class="nav-item"><a class="nav-link" href="">İletişim</a></li>
           </ul>
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Ürün ara..."
-              aria-label="Search"
-            />
-            <button class="btn btn-dark" type="submit">Ara</button>
-          </form>
+           @RenderSection("Search", required: false)
         </div>
       </div>
     </nav>

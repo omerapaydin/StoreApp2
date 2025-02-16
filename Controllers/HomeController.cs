@@ -23,5 +23,9 @@ namespace StoreApp2.Controllers
         {
             return View(_productRepository.Products.ToList());
         }
+        public IActionResult Details(int? id)
+        {
+            return View(_productRepository.Products.FirstOrDefault(i =>i.ProductId==id));
+        }
     }
 }

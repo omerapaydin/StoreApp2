@@ -160,3 +160,4 @@
 /Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-tg23vtgx2j.gz
+/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/aq49hdormp-2kogf84yb9.gz
