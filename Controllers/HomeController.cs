@@ -19,9 +19,16 @@ namespace StoreApp2.Controllers
         {
             return View(_productRepository.Products.OrderBy(p=>p.PublishedOn).Take(4).ToList());
         }
-        public IActionResult List()
+        public IActionResult List(string search)
         {
-            return View(_productRepository.Products.ToList());
+            var products = _productRepository.Products;
+
+            if(!String.IsNullOrEmpty(search))
+            {
+                products = products.Where(p=>p.Description.ToLower().Contains(search.ToLower()));
+            }
+
+            return View(products.ToList());
         }
         public IActionResult Details(int? id)
         {

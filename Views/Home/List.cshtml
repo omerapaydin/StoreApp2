@@ -70,10 +70,11 @@
 
 
 @section Search {
-        <form class="d-flex">
+        <form asp-controller="Home" asp-action="List" method="post" class="d-flex">
             <input
               class="form-control me-2"
               type="search"
+              name="search"
               placeholder="Ürün ara..."
               aria-label="Search"
             />
