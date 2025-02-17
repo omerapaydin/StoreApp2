@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/css/Details.css"
     },
     {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/Login.css",
+      "PackagePath": "staticwebassets/css/Login.css"
+    },
+    {
       "Id": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css",
       "PackagePath": "staticwebassets/css/main.css"
     },
