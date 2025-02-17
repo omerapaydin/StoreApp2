@@ -1,49 +1,32 @@
-@model List<Product>
+@model ProductListViewModel
 
 <div class="row">
 
-    <div class="col-md-3">
-         <div class="card shadow-sm border-0 rounded-4 p-3 bg-light">
-            <h5 class="fw-bold text-center mb-3">Kategoriler</h5>
+    <div class="col-md-3 mb-3">
+         <div style="position: sticky; top: 5px; z-index: 1;"  class="card shadow-sm border-0 rounded-4 p-3 bg-light">
+            <h5 class="fw-bold text-center mb-3">
+              <a style="text-decoration : none; color : #212529;" href="/Home/List">Kategoriler</a>
+            </h5>
             <ul class="list-group list-group-flush">
+
+               @foreach(var ctg in Model.Categories)
+                {
               <li class="list-group-item bg-transparent border-0">
                 <a
-                  href="#"
+                  asp-controller="Home" asp-action="List" asp-route-id="@ctg.CategoryId"
                   class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
                 >
-                  Kulaklıklar
+                  @ctg.Name
                 </a>
-              </li>
-              <li class="list-group-item bg-transparent border-0">
-                <a
-                  href="#"
-                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
-                >
-                  Klavye & Mouse
-                </a>
-              </li>
-              <li class="list-group-item bg-transparent border-0">
-                <a
-                  href="#"
-                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
-                >
-                  Bilgisayar Aksesuarları
-                </a>
-              </li>
-              <li class="list-group-item bg-transparent border-0">
-                <a
-                  href="#"
-                  class="text-decoration-none text-dark fw-semibold d-block text-center py-2"
-                >
-                  Akıllı Saatler
-                </a>
-              </li>
+              </li> 
+                }
+
             </ul>
           </div>
     </div>
     <div class="col-md-9">
        <div class="row">
-         @foreach(var prd in Model)
+         @foreach(var prd in Model.Products)
         {
             <div class="col-md-4 mb-3">
                     <div class="card shadow product-card">
