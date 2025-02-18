@@ -204,5 +204,46 @@ namespace StoreApp2.Controllers
 
         }
 
+
+         public IActionResult ResetPassword(string Id,string token)
+            {
+                if(Id==null || token == null)
+                {
+                     return RedirectToAction("Login");
+                }
+                var model = new ResetPasswordModel{Token = token };
+                return View(model);
+            }
+
+         [HttpPost]
+            public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
+            {
+                if(ModelState.IsValid)
+                {
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+
+                 if(user == null)
+                 {
+                     TempData["message"] = "Email adresiyle eşleşen kullanıcı yok.";
+                    return RedirectToAction("Login");
+                 }
+
+                    var result = await _userManager.ResetPasswordAsync(user,model.Token,model.Password);
+
+                    if(result.Succeeded)
+
+                    {
+                          TempData["message"] = "Şifre değiştirildi.";
+                        return RedirectToAction("Login");
+                        
+                    }
+
+
+                }
+                return View(model);
+
+            }
+
+
     }
 }
