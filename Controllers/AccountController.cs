@@ -66,13 +66,57 @@ namespace StoreApp2.Controllers
                 var hasher = new PasswordHasher<ApplicationUser>();
                 user.PasswordHash = hasher.HashPassword(user,model.Password);
 
-                await _userManager.CreateAsync(user);
+               IdentityResult result =  await _userManager.CreateAsync(user);
+
+                if (result.Succeeded)
+                 {
+                 var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                var url = Url.Action("ConfirmEmail", "Account", new{user.Id,token});
+
+                  
+                await _emailSender.SendEmailAsync(user.Email, "Hesap Onayı",$"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5259{url}'> tıklayınız. <a/>");
+
+
+                TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
+                return RedirectToAction("Login", "Account");
+                  }
+
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
 
                  return RedirectToAction("Index", "Home");
             }
             
                  return View(model);
 
+        }
+
+         public async Task<IActionResult> ConfirmEmail(string Id, string token)
+        {
+            if(Id == null || token == null)
+            {
+                TempData["message"] = "Geçersiz token bilgisi";
+                return View();
+            }
+
+             var user = await _userManager.FindByIdAsync(Id);
+
+            if (user != null)
+            {
+                var result = await _userManager.ConfirmEmailAsync(user,token);
+
+
+                if (result.Succeeded)
+                {
+                    TempData["message"] = "Hesabınız onaylandı";
+                    return RedirectToAction("Login","Account");
+                }
+            }
+
+            TempData["message"] = "Kullanıcı bulunamadı onaylandı";
+                    return View();
         }
    
         public IActionResult Login()
@@ -89,6 +133,12 @@ namespace StoreApp2.Controllers
                 if(user != null)
                 {
                     await _signInManager.SignOutAsync();
+
+                    if(!await _userManager.IsEmailConfirmedAsync(user))
+                   {
+                    ModelState.AddModelError("", "Hesabınızı onaylayınız.");
+                    return View(model);
+                   }
 
                     var result = await _signInManager.PasswordSignInAsync(user,model.Password,model.RememberMe,false);
 
