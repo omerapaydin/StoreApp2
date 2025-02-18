@@ -13,11 +13,15 @@ namespace StoreApp2.Controllers
     {
         private UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+       private readonly StoreApp2.Models.IEmailSender _emailSender;
 
-        public AccountController(UserManager<ApplicationUser> userManager,SignInManager<ApplicationUser> signInManager)
+
+        public AccountController(UserManager<ApplicationUser> userManager,SignInManager<ApplicationUser> signInManager,StoreApp2.Models.IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _emailSender = emailSender;
+
         }
         public IActionResult Create()
         {
@@ -74,7 +78,7 @@ namespace StoreApp2.Controllers
                     var url = Url.Action("ConfirmEmail", "Account", new{user.Id,token});
 
                     
-                   
+                    await _emailSender.SendEmailAsync(user.Email, "Hesap Onayı",$"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5259{url}'> tıklayınız. <a/>");
 
 
                     TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
