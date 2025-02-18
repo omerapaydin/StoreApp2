@@ -169,6 +169,40 @@ namespace StoreApp2.Controllers
             return RedirectToAction("Login");
         }
 
+          public IActionResult ForgotPassword()
+        {
+
+            return View();
+        }
+        [HttpPost]
+          public async Task<IActionResult> ForgotPassword(string Email)
+        {
+            if(string.IsNullOrEmpty(Email))
+            {
+                 TempData["message"] = "Eposta giriniz";
+                 return View();
+
+            }
+
+            var user = await _userManager.FindByEmailAsync(Email);
+            
+            if (user == null)
+            {
+                 TempData["message"] = "Eposta yok";
+
+                return View();
+            }
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+             var url = Url.Action("ResetPassword", "Account", new{user.Id,token});
+
+              await _emailSender.SendEmailAsync(user.Email, "Şifre Sıfırlama",$"Lütfen şifre değiştirmek için linke <a href='http://localhost:5259{url}'> tıklayınız. <a/>");
+
+              TempData["message"] = "Epostanıza gönderilen link ile şifrenizi sıfırlayabilirsiniz.";
+
+             return View();
+
+        }
 
     }
 }
