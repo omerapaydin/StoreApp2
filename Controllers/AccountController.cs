@@ -66,25 +66,20 @@ namespace StoreApp2.Controllers
                 var hasher = new PasswordHasher<ApplicationUser>();
                 user.PasswordHash = hasher.HashPassword(user,model.Password);
 
-               IdentityResult result =  await _userManager.CreateAsync(user);
+               IdentityResult result = await _userManager.CreateAsync(user);
 
-                if (result.Succeeded)
-                 {
-                 var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                var url = Url.Action("ConfirmEmail", "Account", new{user.Id,token});
+               if(result.Succeeded)
+               {
+                    var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var url = Url.Action("ConfirmEmail", "Account", new{user.Id,token});
 
-                  
-                await _emailSender.SendEmailAsync(user.Email, "Hesap Onayı",$"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5259{url}'> tıklayınız. <a/>");
+                    
+                   
 
 
-                TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
-                return RedirectToAction("Login", "Account");
-                  }
-
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError("", error.Description);
-                }
+                    TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
+                    return RedirectToAction("Login", "Account");
+               }
 
                  return RedirectToAction("Index", "Home");
             }
@@ -93,7 +88,8 @@ namespace StoreApp2.Controllers
 
         }
 
-         public async Task<IActionResult> ConfirmEmail(string Id, string token)
+
+        public async Task<IActionResult> ConfirmEmail(string Id, string token)
         {
             if(Id == null || token == null)
             {
@@ -118,6 +114,7 @@ namespace StoreApp2.Controllers
             TempData["message"] = "Kullanıcı bulunamadı onaylandı";
                     return View();
         }
+
    
         public IActionResult Login()
         {

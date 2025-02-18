@@ -3,8 +3,19 @@ using Microsoft.EntityFrameworkCore;
 using StoreApp2.Data.Abstract;
 using StoreApp2.Data.Concrete.EfCore;
 using StoreApp2.Entity;
+using StoreApp2.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IEmailSender,SmtpEmailSender>(i=>
+    new SmtpEmailSender(
+        builder.Configuration["EmailSender:Host"],
+        builder.Configuration.GetValue<int>("EmailSender:Port"),
+        builder.Configuration.GetValue<bool>("EmailSender:EnableSSL"),
+        builder.Configuration["EmailSender:Username"],
+        builder.Configuration["EmailSender:Password"]
+    )
+);
 
 builder.Services.AddControllersWithViews();
 
