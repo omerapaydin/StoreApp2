@@ -48,8 +48,52 @@
             </div>
         }
        </div>
+       <nav>
+      <ul class="pagination justify-content-center">
+          @if (Model.PageInfo.CurrentPage > 1)
+          {
+              <li class="page-item">
+                  <a class="page-link" 
+                    style="background: #343a40; color: #f8f9fa; border-color: #f8f9fa;"
+                    onmouseover="this.style.background='#212529';"
+                    onmouseout="this.style.background='#343a40';"
+                    href="@Url.Action("List", new { page = Model.PageInfo.CurrentPage - 1, search = ViewBag.Search, id = ViewBag.CategoryId })">
+                      Önceki
+                  </a>
+              </li>
+          }
+          
+          @for (var i = 1; i <= Model.PageInfo.TotalPages; i++)
+          {
+              <li class="page-item @(i == Model.PageInfo.CurrentPage ? "active" : "")">
+                  <a class="page-link" 
+                    style="background: #343a40; color: #f8f9fa; border-color: #f8f9fa;"
+                    onmouseover="this.style.background='#212529';"
+                    onmouseout="this.style.background='#343a40';"
+                    href="@Url.Action("List", new { page = i, search = ViewBag.Search, id = ViewBag.CategoryId })">
+                      @i
+                  </a>
+              </li>
+          }
+          
+          @if (Model.PageInfo.CurrentPage < Model.PageInfo.TotalPages)
+          {
+              <li class="page-item">
+                  <a class="page-link" 
+                    style="background: #343a40; color: #f8f9fa; border-color: #f8f9fa;"
+                    onmouseover="this.style.background='#212529';"
+                    onmouseout="this.style.background='#343a40';"
+                    href="@Url.Action("List", new { page = Model.PageInfo.CurrentPage + 1, search = ViewBag.Search, id = ViewBag.CategoryId })">
+                      Sonraki
+                  </a>
+              </li>
+          }
+      </ul>
+  </nav>
     </div>
 </div>
+
+
 
 
 @section Search {

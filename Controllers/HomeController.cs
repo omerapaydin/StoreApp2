@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StoreApp2.Data.Abstract;
 using StoreApp2.Models;
+using StoreApp2.ViewModel;
 
 namespace StoreApp2.Controllers
 {
     public class HomeController:Controller
     {
+        public int pageSize = 3;
         private IProductRepository _productRepository;
         private ICategoryRepository _categoryRepository;
 
@@ -23,9 +25,10 @@ namespace StoreApp2.Controllers
         {
             return View(_productRepository.Products.OrderBy(p=>p.PublishedOn).Take(4).ToList());
         }
-        public IActionResult List(string search,int? id)
+        public IActionResult List(string search,int? id, int page = 1)
         {
-            var products = _productRepository.Products;
+            var products = _productRepository.Products.AsQueryable();
+            var categories = _categoryRepository.Categories.ToList();
 
             if(id != null)
             {
@@ -39,8 +42,14 @@ namespace StoreApp2.Controllers
 
             var viewModel = new ProductListViewModel
             {
-                Products = products.ToList(),
-                Categories = _categoryRepository.Categories.ToList()
+                    Products = products.Skip((page - 1) * pageSize).Take(pageSize).ToList(),
+                    Categories = categories,
+                    PageInfo = new PageInfo
+                {
+                    ItemsPerPage = pageSize,
+                    TotalItems = products.Count(),
+                    CurrentPage = page
+                }
             };
 
             return View(viewModel);
