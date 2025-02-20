@@ -18,9 +18,11 @@ namespace StoreApp2.Data.Concrete.EfCore
        
         }
 
-         public DbSet<Product> Products => Set<Product>();
+        public DbSet<Product> Products => Set<Product>();
         public DbSet<Category> Categories  => Set<Category>();
         public DbSet<Comment> Comments => Set<Comment>();
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
 
 
          protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
