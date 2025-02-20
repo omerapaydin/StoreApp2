@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RFFhOjnkadZ1RwnPf+vFNjctp1YUXbEOHtLksq2niys=",
+  "Hash": "w4IGXA/lWGPDyXS0X93rKfB4jlXGp8tDajcYsCiAUyw=",
   "Source": "StoreApp2",
   "BasePath": "_content/StoreApp2",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-o1qo3r3x3m.gz",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-nqbze1zwj3.gz",
       "SourceId": "StoreApp2",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/StoreApp2",
-      "RelativePath": "css/main#[.{fingerprint=o1qo3r3x3m}]?.css.gz",
+      "RelativePath": "css/main#[.{fingerprint=nqbze1zwj3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +31,8 @@
       "RelatedAsset": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "buwmio43c2",
-      "Integrity": "Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90=",
+      "Fingerprint": "qvi00jpe2r",
+      "Integrity": "amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css"
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o1qo3r3x3m",
-      "Integrity": "3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=",
+      "Fingerprint": "nqbze1zwj3",
+      "Integrity": "0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/main.css"
@@ -1099,12 +1099,12 @@
     },
     {
       "Route": "css/main.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-o1qo3r3x3m.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-nqbze1zwj3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001805054152"
+          "Quality": "0.002012072435"
         }
       ],
       "ResponseHeaders": [
@@ -1114,15 +1114,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "496"
         },
         {
           "Name": "ETag",
-          "Value": "\"Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90=\""
+          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 22:37:16 GMT"
+          "Value": "Thu, 20 Feb 2025 22:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1142,13 +1142,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=\""
+          "Value": "W/\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM="
+          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
         }
       ]
     },
@@ -1163,7 +1163,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1361"
+          "Value": "1115"
         },
         {
           "Name": "Content-Type",
@@ -1171,11 +1171,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=\""
+          "Value": "\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 22:37:16 GMT"
+          "Value": "Thu, 20 Feb 2025 22:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1185,13 +1185,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM="
+          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
         }
       ]
     },
     {
       "Route": "css/main.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-o1qo3r3x3m.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-nqbze1zwj3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1200,7 +1200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "496"
         },
         {
           "Name": "Content-Type",
@@ -1208,11 +1208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90=\""
+          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 22:37:16 GMT"
+          "Value": "Thu, 20 Feb 2025 22:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1230,18 +1230,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90="
+          "Value": "sha256-amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE="
         }
       ]
     },
     {
-      "Route": "css/main.o1qo3r3x3m.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-o1qo3r3x3m.gz",
+      "Route": "css/main.nqbze1zwj3.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-nqbze1zwj3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001805054152"
+          "Quality": "0.002012072435"
         }
       ],
       "ResponseHeaders": [
@@ -1251,15 +1251,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "496"
         },
         {
           "Name": "ETag",
-          "Value": "\"Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90=\""
+          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 22:37:16 GMT"
+          "Value": "Thu, 20 Feb 2025 22:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1279,13 +1279,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=\""
+          "Value": "W/\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1qo3r3x3m"
+          "Value": "nqbze1zwj3"
         },
         {
           "Name": "label",
@@ -1293,12 +1293,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM="
+          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
         }
       ]
     },
     {
-      "Route": "css/main.o1qo3r3x3m.css",
+      "Route": "css/main.nqbze1zwj3.css",
       "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/wwwroot/css/main.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1308,7 +1308,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1361"
+          "Value": "1115"
         },
         {
           "Name": "Content-Type",
@@ -1316,11 +1316,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=\""
+          "Value": "\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 22:37:16 GMT"
+          "Value": "Thu, 20 Feb 2025 22:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1330,7 +1330,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1qo3r3x3m"
+          "Value": "nqbze1zwj3"
         },
         {
           "Name": "label",
@@ -1338,13 +1338,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM="
+          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
         }
       ]
     },
     {
-      "Route": "css/main.o1qo3r3x3m.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-o1qo3r3x3m.gz",
+      "Route": "css/main.nqbze1zwj3.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret2/StoreApp2/obj/Debug/net9.0/compressed/80vtejo5sq-nqbze1zwj3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1353,7 +1353,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "553"
+          "Value": "496"
         },
         {
           "Name": "Content-Type",
@@ -1361,11 +1361,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90=\""
+          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Feb 2025 22:37:16 GMT"
+          "Value": "Thu, 20 Feb 2025 22:54:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1383,7 +1383,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "o1qo3r3x3m"
+          "Value": "nqbze1zwj3"
         },
         {
           "Name": "label",
@@ -1391,7 +1391,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Pf6nVNunJ1eII9ybAJAD+3bJEGoBh2xIu7kfHAxHX90="
+          "Value": "sha256-amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE="
         }
       ]
     },

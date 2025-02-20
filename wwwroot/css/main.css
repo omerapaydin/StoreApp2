@@ -3,12 +3,7 @@
 }
 
 /* cart */
-
-.product-card:hover {
-  transform: scale(1.05);
-}
-
-a.custom-btn {
+.btn.custom-btn {
   background: #343a40;
   border: none;
   color: white;
@@ -17,11 +12,15 @@ a.custom-btn {
   border-radius: 25px;
   transition: background 0.3s ease-in-out, transform 0.2s, color 0.3s;
 }
-a.custom-btn:hover {
+.btn.custom-btn:hover {
   background: #212529;
   color: #f8f9fa;
   transform: scale(1.1);
 }
+.product-card:hover {
+  transform: scale(1.05);
+}
+
 .product-card {
   transition: transform 0.3s ease-in-out;
   height: 100%;
@@ -40,20 +39,6 @@ a.custom-btn:hover {
   height: 300px;
   object-fit: cover;
 }
-/* list */
-.list-group-item a {
-  display: block;
-  padding: 12px;
-  border-radius: 8px;
-  transition: background 0.3s ease-in-out, transform 0.2s;
-}
-
-.list-group-item a:hover {
-  background: #e9ecef;
-  transform: scale(1.05);
-  font-weight: bold;
-}
-
 /* anasayfa */
 
 .carousel {

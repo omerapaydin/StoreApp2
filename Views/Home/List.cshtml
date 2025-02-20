@@ -44,10 +44,9 @@
                         <p class="text-warning">₺ @prd.Price</p>
 
                         <form asp-page="/Cart" method="post">
-                          <input type="hidden" asp-for="@prd.ProductId">
-                          <a  class="btn custom-btn">Sepete Ekle</a>
-
-                        </form>
+                        <input type="hidden" name="ProductId" asp-for="@prd.ProductId">
+                        <button type="submit" class="btn custom-btn">Sepete Ekle</button>
+                      </form>
 
                         </div>
                     </div>
