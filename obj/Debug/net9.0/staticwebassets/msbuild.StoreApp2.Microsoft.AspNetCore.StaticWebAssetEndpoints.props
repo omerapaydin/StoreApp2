@@ -24,17 +24,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zaeh6iegos"},{"Name":"integrity","Value":"sha256-VW9bozj96w\u002BLQAASgfipk4Pr1sDnBdY5\u002BkIaGTF61vU="},{"Name":"label","Value":"_content/StoreApp2/css/Login.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"891"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VW9bozj96w\u002BLQAASgfipk4Pr1sDnBdY5\u002BkIaGTF61vU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 21:33:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/StoreApp2/css/main.c76vl78i88.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c76vl78i88"},{"Name":"integrity","Value":"sha256-2B0U5yIwKqDx97cpt8UGNjy9eHMk36httY1J2TCPw3g="},{"Name":"label","Value":"_content/StoreApp2/css/main.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1368"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222B0U5yIwKqDx97cpt8UGNjy9eHMk36httY1J2TCPw3g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 15:06:15 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StoreApp2/css/main.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2B0U5yIwKqDx97cpt8UGNjy9eHMk36httY1J2TCPw3g="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1368"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00222B0U5yIwKqDx97cpt8UGNjy9eHMk36httY1J2TCPw3g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 17 Feb 2025 15:06:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1361"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 22:37:16 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/StoreApp2/css/main.o1qo3r3x3m.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\main.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o1qo3r3x3m"},{"Name":"integrity","Value":"sha256-3DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM="},{"Name":"label","Value":"_content/StoreApp2/css/main.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1361"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223DjMx/KnNAkVXSMRCfclzBddeIWA/wqxl1qG0Emv9SM=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Feb 2025 22:37:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/StoreApp2/img/297629f8-5ac7-41c3-af25-e92ec686a74e.b7dfskoipr.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\297629f8-5ac7-41c3-af25-e92ec686a74e.jpg'))</AssetFile>

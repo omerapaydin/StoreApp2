@@ -6,6 +6,8 @@ using StoreApp2.Entity;
 using StoreApp2.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddScoped<Cart>();
+
 
 builder.Services.AddScoped<IEmailSender,SmtpEmailSender>(i=>
     new SmtpEmailSender(
@@ -44,6 +46,7 @@ builder.Services.ConfigureApplicationCookie(options =>{
 
 builder.Services.AddScoped<IProductRepository,EfProductRepository>();
 builder.Services.AddScoped<ICategoryRepository,EfCategorRepository>();
+builder.Services.AddScoped<Cart>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 

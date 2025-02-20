@@ -7,7 +7,8 @@
 .product-card:hover {
   transform: scale(1.05);
 }
-a.btn.custom-btn {
+
+a.custom-btn {
   background: #343a40;
   border: none;
   color: white;
@@ -16,7 +17,7 @@ a.btn.custom-btn {
   border-radius: 25px;
   transition: background 0.3s ease-in-out, transform 0.2s, color 0.3s;
 }
-a.btn.custom-btn:hover {
+a.custom-btn:hover {
   background: #212529;
   color: #f8f9fa;
   transform: scale(1.1);
