@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StoreApp2.Data.Abstract;
+using StoreApp2.Data.Concrete;
 using StoreApp2.Data.Concrete.EfCore;
 using StoreApp2.Entity;
 using StoreApp2.Models;
@@ -46,6 +47,7 @@ builder.Services.ConfigureApplicationCookie(options =>{
 
 builder.Services.AddScoped<IProductRepository,EfProductRepository>();
 builder.Services.AddScoped<ICategoryRepository,EfCategorRepository>();
+builder.Services.AddScoped<IOrderRepository,EfOrderRepository>();
 builder.Services.AddScoped<Cart>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();

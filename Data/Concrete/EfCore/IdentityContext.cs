@@ -29,7 +29,6 @@ namespace StoreApp2.Data.Concrete.EfCore
     {
         base.OnConfiguring(optionsBuilder);
 
-        // Uyarıyı bastırmak için ekliyoruz
         optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
     }
 
