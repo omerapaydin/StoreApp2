@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StoreApp2.Data.Concrete.EfCore;
 
@@ -10,9 +11,11 @@ using StoreApp2.Data.Concrete.EfCore;
 namespace StoreApp2.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    partial class IdentityContextModelSnapshot : ModelSnapshot
+    [Migration("20250221161130_NewTable2")]
+    partial class NewTable2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.2");
@@ -219,15 +222,15 @@ namespace StoreApp2.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "c73bfb36-4bb9-4673-b6d3-23a773cbe040",
+                            ConcurrencyStamp = "d428dace-bb6f-482b-be00-6b275f110a89",
                             Email = "info@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ömer Apaydın",
                             ImageFile = "p1.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEJhwzdoi2I3yjyv/ahrpqPORhHmCOdn3za3S/YHEWIJjzIC+2nBmSwLYZdpMpmtP0A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKmA/C1OU+eQ0Ftg87ugFjyV0v2/1iOLSoszLGjwE4y3Ax3TSf/wr7iHKPjbr5Dw/g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "39cf6825-9159-4fd6-b13c-974f98accc8b",
+                            SecurityStamp = "f6005d77-956e-4a98-8023-6583226e1700",
                             TwoFactorEnabled = false,
                             UserName = "omerapaydin"
                         },
@@ -235,15 +238,15 @@ namespace StoreApp2.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d8d7c1bb-cf6d-48f5-90f5-97891aad473d",
+                            ConcurrencyStamp = "49ec34b6-1735-4145-8e0e-5761501634b6",
                             Email = "info2@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ahmet Tamboğa",
                             ImageFile = "p2.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEPDqKD3Q0ZB55UpmjSr9T0AeFsS04S4XAQrP1QPSKng5lMR2gB7irq3IleTnVnjKJw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKvkcRSXPekjannb4mN6/HvfC2YUwEgkcwse+xIB9C1rp/8FxJtzdtrISwgBsCaAuQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "e013ccaa-ce99-45b9-9274-8f471de3dfc9",
+                            SecurityStamp = "e2cd5038-0bc0-4eb7-80c4-5111ce9919fb",
                             TwoFactorEnabled = false,
                             UserName = "ahmettambuga"
                         });
