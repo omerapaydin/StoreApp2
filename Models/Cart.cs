@@ -8,7 +8,7 @@ namespace StoreApp2.Models
 {
     public class Cart
     {
-         public List<CartItem> Items { get; set; } = new List<CartItem>();
+        public List<CartItem> Items { get; set; } = new List<CartItem>();
 
         public void AddItem(Product product, int quantity)
         {
@@ -18,7 +18,7 @@ namespace StoreApp2.Models
             {
                 Items.Add(new CartItem { Product = product, Quantity = quantity });
             }
-            else
+            else 
             {
                 item.Quantity += quantity;
             }
